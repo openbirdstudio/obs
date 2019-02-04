@@ -14,9 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <style type="text/css">
-  	body{
-  		#background-color: #f1f9ff;
-  	}
   	.thumb{
   		text-align: center;
   	}
@@ -24,7 +21,34 @@
   		max-width: 163px;
   		vertical-align: middle;
   	}
-
+  	.projectMask{
+  		opacity: 0;
+  		width:100%;
+	  	height:100%;
+	  	position: absolute;
+	  	top:0;
+	  	left:0;
+  	}
+  	.projectDIV{
+  		position:relative;
+  	}
+	.projectMask:hover{
+		opacity: 0.9;
+  		background-color: rgb(4,97,120);
+  		/*background-color: black;*/
+  		color:white;
+  		transition: .5s;
+  	}
+  	.projectMask h1{
+  		position: absolute;
+  		text-align: center;
+  		top:40%;
+  		left:50%;
+  		transform: translate(-50%,-50%);
+  		-webkit-transform: translate(-50%,-50%);
+  		-ms-transform: translate(-50%,-50%);
+  		-moz-transform: translate(-50%,-50%);
+  	}
   </style>
 </head>
 
@@ -38,9 +62,9 @@
 
       <a href="index.html" class="focused_topnav_a" style="float:left;">Home</a>
 
-      <a href="awards/Awards.html">Awards</a>
-      <a href="https://medium.com/urban-matters">Uban Matters Medium</a>
-      <a href="https://www.meetup.com/Geodesign-TPE-Meetup/">GeoDesign TPE</a>
+      <a href="awards/Awards.html">About us</a>
+      <a href="https://medium.com/urban-matters">Awards</a>
+      <a href="https://www.meetup.com/Geodesign-TPE-Meetup/">Solutions</a>
 
       <!--
       <a href="gis.html">GIS</a>
@@ -53,216 +77,53 @@
  </div>
 <!--End of Navigation-->
 
-  <!--
+  
   <div id="center_title">
-    <h2>-Togetherhoo-</h2>
-	 <h3>GIS, ABM and Wire Art.</h3>
+    <h2 style="font-size: 2em;">-openbird studio-</h2>
+	<h3 style="font-size: 1.5em;">Spatiial Analysis, Location Intelligence, Geovisualization</h3>
   </div>
-  -->
+  
 
 </div>
 <!--End of first part-->
 
-<div class="container">
+<div class="container-fluid" style="padding:0;">
 
 <section id="works">
-    <div class="col-12"><h2 style="text-align:center;">Projects</h2></div>
-	
-	<div class="flex_container">
-	  <div class="flex_item data-cates">    
-		  <h3 class="data-cates-title" style="text-align:center;">TRAVO! (Asia Hackthon)</h3>
-		  <img class="img-responsive" src="projects/asiaHackthon/TRAVO1.jpg" alt="openbird studio - asia hackthon project">
-		  <div class="middle">
-		    <a class="data-cates-more" href="wireart.html">View More</a>
-		  </div>	    
-	  </div>
-	  
-	  <div class="flex_item data-cates">			 
-		  <h3 class="data-cates-title" style="text-align:center;">Hsinchu Hackthon</h3>
-		  <img class="img-responsive" src="projects/hsinchuHackthon/hsinchuHack1.jpg" alt="openbird studio - hsinchu hackthon project">
-		  <div class="middle">
-		    <a class="data-cates-more"  href="netlogo.html">View More</a>
-		  </div>					 
-	  </div>
-	</div>
-	
-	<div class="flex_container ">
-	  
-	  <div class="flex_item data-cates">
-	    <h3 class="data-cates-title" style="text-align:center;">Parking Simulation</h3>
-		<img class="img-responsive" src="projects/hualien/Hualien1.jpg" alt="openbird studio - hualien parking lot accessibility project">
-		<div class="middle">
-		    <a class="data-cates-more"  href="webjs.html">View More</a>
-		</div>
- 
-	  </div>
-	  
-	  <div class="flex_item data-cates">
-	  <h3 class="data-cates-title" style="text-align:center;">Taipei MRT Analysis</h3>
-		<img class="img-responsive" src="projects/TaipeiMRT/All_out_heatmap_0_4.png" alt="openbird studio - MRT population research project">
-		<div class="middle">
-		    <a class="data-cates-more"  href="gis.html">View More</a>
-		</div>
-	  </div>
-	</div>
+    <div class="col-md-6 col-sm-12 projectDIV" >
+    	<div class="projectMask">
+    		<h1> Project1 </h1>
+    	</div>
+    	<img class="img-responsive" src="projects/asiaHackthon/australia-ms1.jpg" alt="openbird studio - asia hackthon project">
+    </div>
+    	
+    <div class="col-md-6 col-sm-12 projectDIV" >
+    	<div class="projectMask">
+    		<h1> Project2 </h1>
+    	</div>
+    	<img class="img-responsive" src="projects/asiaHackthon/australia-ms1.jpg" alt="openbird studio - asia hackthon project">
+    </div>
+    
+    <div class="col-md-6 col-sm-12 projectDIV" >
+    	<div class="projectMask">
+    		<h1> Project3 </h1>
+    	</div>
+    	<img class="img-responsive" src="projects/asiaHackthon/australia-ms1.jpg" alt="openbird studio - asia hackthon project">
+    </div>
+
+    <div class="col-md-6 col-sm-12 projectDIV" >
+    	<div class="projectMask">
+    		<h1> Project4 </h1>
+    	</div>
+    	<img class="img-responsive" src="projects/asiaHackthon/australia-ms1.jpg" alt="openbird studio - asia hackthon project">
+    </div>
 
 </section>
-
-<section id="about_me"> 
-  <div class="container">
-	<div class="row justify-content-center">
-		<div class="col-12"><h2 style="text-align:center;">Core Capabilities</h2></div>
-	</div>
-	<div class="row justify-content-center">
-	  <div class="flex_container">
-		  <div class="flex_item capability">
-		  	<img class="img-responsive" src="img/spatial_analysis.jpg" alt="openbird studio - capability:spatial analysis">
-		    <h3 class="data-cates-title" style="text-align:center;">Spatial Analysis</h3>
-		    <p style="padding:30px;">Spatial data, also known as geometric data. It is used to present information such as location, status and scale. It can also be illustrated as a map.</p>
-		  </div>
-
-		  <div class="flex_item capability">
-		  	<img class="img-responsive" src="img/Geovisiualization.jpg" alt="openbird studio - capability:Geovisiualization">
-		    <h3 class="data-cates-title" style="text-align:center;">Geovisiualization</h3>
-		    <p style="padding:30px;">Combining and visualizing different layers of data into a single map, this way the readers can understand the complex information more effectively compared with dataframes.</p>
-		  </div>
-
-		  <div class="flex_item capability">
-		  	<img class="img-responsive" src="img/WebGIS.jpg" alt="openbird studio - capability:WebGIS development">
-		    <h3 class="data-cates-title" style="text-align:center;">WebGIS</h3>
-		    <p style="padding:30px;">Presenting visualized results on the web, where readers can not only read data but interact with them.</p>
-		  </div>
-
-		  <div class="flex_item capability">
-		  	<img class="img-responsive" src="img/ABM.jpg" alt="openbird studio - capability:Agent-Based Modeling(ABM) simulation">
-		    <h3 class="data-cates-title" style="text-align:center;">Agent-Based Modeling</h3>
-		    <p style="padding:30px;">Setting behavioral rules for agents in order to simulate what influence the agents’ behavior will have to the whole system.</p>
-		  </div>
-	  </div>
-	</div>
-  </div>
-
-</section>
-
-<section class="faculty-area section-gap">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12"><h2 style="text-align:center;">About Us</h2></div>
-			<div>
-				We are openbird studio. We specialize in location-based services, spatial analysis, location itelligence, and transforming location data into insights and better business outcomes With our set of expertise, we are on a mission to understand existing urban processes, and change it for the better.
-			</div>
-		</div>
-		<div class="row justify-content-center d-flex align-items-center">
-			<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
-				<div class="thumb d-flex justify-content-center">
-					<img class="img-fluid" src="img/kuku.jpg" alt="">
-				</div>
-				<div class="meta-text text-center">
-					<h4>Shao Ku, Wang</h4>
-					<p class="designation">Geostatistics, Real Estate Analysis</p>
-					<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
-						<p>
-							I lova statistics.
-						</p>
-					</div>
-					<div class="align-items-center justify-content-center d-flex">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
-				<div class="thumb d-flex justify-content-center">
-					<img class="img-fluid" src="img/yoyo.jpg" alt="">
-				</div>
-				<div class="meta-text text-center">
-					<h4>Yen Yu, Chen</h4>
-					<p class="designation">UI/UX Design, Marketing, Visualization</p>
-					<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-						<p>
-							I love design.
-						</p>
-					</div>
-					<div class="align-items-center justify-content-center d-flex">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
-				<div class="thumb d-flex justify-content-center">
-					<img class="img-fluid" src="img/wen.jpg" alt="">
-				</div>
-				<div class="meta-text text-center">
-					<h4>Shih Wen, Wu</h4>
-					<p class="designation">Data Analysis, Spatial Analysis, Web Scraping</p>
-					<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-						<p>
-							I love data.
-						</p>
-					</div>
-					<div class="align-items-center justify-content-center d-flex">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6 col-sm-12 single-faculty">
-				<div class="thumb d-flex justify-content-center">
-					<img class="img-fluid" src="img/zhong.PNG" alt="">
-				</div>
-				<div class="meta-text text-center">
-					<h4>Jia Lin, Zhong</h4>
-					<p class="designation">WebGIS, Agent-Based Modeling, Location Intelligence</p>
-					<div class="info wow fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
-						<p>
-							I love programming.
-						</p>
-					</div>
-					<div class="align-items-center justify-content-center d-flex">
-						<a href="#"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-linkedin"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="contact">
-
-  <div class="row">
-    <div class="col-md-12">
-	  <h2 class="center_text">Contact Us</h2>
-	  <!--<img class="img-responsive center_img" style="max-height:500px;" src="img/ewrw.jpg">-->
-	</div>
-	
-	<div class="col-md-12 center_text">
-	  <h3>If you have any ideas, and want to share with us.</h3>
-      <h3 style="color:RGB(210,83,60)">Just feel free to contact us.</h3>
-	</div>
-	
-	
-	<div class="col-md-12">
-	  <div class="center_text">
-		<a target="blank" href="https://www.facebook.com/nbablissfully">
-	        <i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i>
-	    </a>
-		<a target="blank" href="mailto:openbirdstudio@gmail.com">
-	      <i class="fa fa-3x fa-envelope-o" aria-hidden="true"></i>
-	    </a>
-	  </div>
-	</div>
-  </div>
-</section>
-
-
 
 </div>
+
+
+
 
 <script>
 function responsive_navtap() {
@@ -275,5 +136,29 @@ function responsive_navtap() {
 }
 </script>
 </body>
+
+<footer>
+<section id="contact">
+  <div class="row">
+	  <div class="col-md-6 col-sm-12" id="copyright">
+	  	copyright &copy; 2019 , openbird studio
+	  </div>
+	  <div class="col-md-6 col-sm-12">
+	  	<a target="blank" href="https://www.facebook.com/groups/geodesign.tpe/">
+	        <i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i>
+	    </a>
+	    <a target="blank" href="https://www.meetup.com/Geodesign-TPE-Meetup/">
+	      <i class="fa fa-2x fa-meetup" aria-hidden="true"></i>
+	    </a>
+	    <a target="blank" href="https://medium.com/urban-matters">
+	      <i class="fa fa-2x fa-medium" aria-hidden="true"></i>
+	    </a>
+	    <a target="blank" href="mailto:openbirdstudio@gmail.com">
+	      <i class="fa fa-2x fa-envelope-o" aria-hidden="true"></i>
+	    </a>
+	  </div>
+ </div>
+</section>
+</footer>
 
 </html>
