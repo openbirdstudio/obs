@@ -116,6 +116,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container-fluid" style="padding:0;">
 <div>
 	<input type="text" id="GTMtest" name = "GTMtest" value="kenny's GTM test" />
+	<button id="kennyBTN" onclick="kenny()">送出</botton>
 </div>
 	
 <section id="works">
@@ -168,6 +169,10 @@ var GTMtest = {
 	"name" : "kenny",
 	"date" : "20191031"
 };
+	
+	function kenny(){
+		GTMtest.name = document.getElementById('GTMtest'),value;
+	}
 </script>
 </body>
 
