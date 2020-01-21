@@ -172,6 +172,17 @@ var GTMtest = {
 	
 	function kenny(){
 		GTMtest.name = document.getElementById('GTMtest').value;
+		  	var mixpanel_kennyGTMtest = {{kennyGTMtest}};
+	var mixpanel_kennyGTMtest2 = {{測試全域變數}};
+	  mixpanel.track(
+		    "click button",
+		    {	
+		  "button_input" : mixpanel_kennyGTMtest,
+		  "global_variable" : mixpanel_kennyGTMtest2,
+		  "page url" : {{Page URL}},
+			"mixpanel_button_imput" : document.getElementById('GTMtest').value
+		    }
+		);
 	}
 </script>
 </body>
